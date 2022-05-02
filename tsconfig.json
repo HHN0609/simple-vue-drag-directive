@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "outDir": "./dist/",
+        "module": "esnext",
+        "target": "ES6",
+        "moduleResolution": "node",
+        "jsx": "preserve",
+        "typeRoots": [
+			"src/globalDeclare"
+		]
+    }
+}
