@@ -1,6 +1,6 @@
 {
   "name": "simple-vue-drag-directive",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "a simple diective for vue3 to help developer deal with drag event easier",
   "main": "./lib/index.js",
   "scripts": {
