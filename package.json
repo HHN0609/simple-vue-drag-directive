@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "directory": "https://github.com/HHN0609/v-drag-directive-for-npm.git"
+    "directory": "https://github.com/HHN0609/simple-vue-drag-directive"
   },
   "author": "hehaonan",
   "license": "ISC",
