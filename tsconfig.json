@@ -1,13 +1,19 @@
 {
+    "compileOnSave": false,
     "compilerOptions": {
         "allowJs": true,
-        "outDir": "./dist/",
-        "module": "esnext",
+        "outDir": "./lib/",
+        "module": "ESNext",
         "target": "ES6",
         "moduleResolution": "node",
-        "jsx": "preserve",
         "typeRoots": [
 			"src/globalDeclare"
-		]
-    }
+		],
+        "baseUrl": "./",
+        "types": [ "node" ],
+        "declaration": true,
+        "allowSyntheticDefaultImports": true,
+        "lib": ["DOM", "ES2015"]
+    },
+    "files": ["./src/index.ts"]
 }

@@ -44,6 +44,6 @@ module.exports = {
         }),
     ],
     resolve: {
-        extensions: ['.vue', '.ts', '.js']
-    }
+        extensions: ['.tsx', '.ts', '.jsx', '.js', '...'],
+    },
 }

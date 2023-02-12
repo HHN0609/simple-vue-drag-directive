@@ -11,7 +11,7 @@ module.exports = {
         path: path.resolve(__dirname, '../lib'),
         filename: 'index.js',
         library: {
-            type: 'module'
+            type: 'umd',
         },
         clean: true
     },
@@ -40,6 +40,6 @@ module.exports = {
         new VueLoaderPlugin()
     ],
     resolve: {
-        extensions: ['.ts', '.js', '.vue']
-    }
+        extensions: ['.tsx', '.ts', '.jsx', '.js', '...'],
+    },
 }
