@@ -1,8 +1,9 @@
 {
   "name": "simple-vue-drag-directive",
-  "version": "1.0.16",
+  "version": "1.0.18",
   "description": "a simple diective for vue3 to help developer deal with drag event easier",
   "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack server --config ./build/webpack.config.dev.js --open",

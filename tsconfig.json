@@ -6,9 +6,7 @@
         "module": "ESNext",
         "target": "ES6",
         "moduleResolution": "node",
-        "typeRoots": [
-			"src/globalDeclare"
-		],
+        "jsx": "preserve",
         "baseUrl": "./",
         "types": [ "node" ],
         "declaration": true,

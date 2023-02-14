@@ -1,8 +1,8 @@
 <template>
   <div class="box">
-    <hello-world v-drag="{limit: 1, classList:['draging'], dragArea:'parent'}"/>
-    <hello-world v-drag="{limit: 1, classList:['draging'], dragArea:'parent'}"/>
-    <hello-world v-drag="{limit: 1, classList:['draging']}"/>
+    <hello-world v-drag="{limit: 1, draggingClassList:['draging'], dragArea:'parent'}"/>
+    <!-- <hello-world v-drag="{limit: 1, draggingClassList:['draging'], dragArea:'parent'}"/> -->
+    <!-- <hello-world v-drag="{limit: 1, draggingClassList:['draging']}"/> -->
   </div>
 </template>
 
@@ -11,17 +11,13 @@ import HelloWorld from './src/HelloWorld.vue'
 import { vDrag } from '../src/directives/vue-drag-directive'
 </script>
 
-<style>
-*{
-  margin: 0;
-  padding: 0;
-}
+<style scoped>
 .box{
   width: 700px;
   height: 500px;
   border: solid black 20px;
   position: absolute;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   left: 50px;
 }
 .draging{
